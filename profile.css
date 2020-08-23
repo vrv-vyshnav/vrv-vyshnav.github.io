@@ -1,0 +1,173 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+}
+.profile
+{
+    margin: 0;
+    padding: 0;
+}
+.nav h2
+{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #000;
+}
+header
+{   
+    background-color: #fff;
+    min-height: 100vh;
+    margin: 0;
+}
+.nav
+{
+    position: fixed;
+      width: 100%;
+      overflow: hidden;
+}
+.nav ul
+{
+    position: absolute;
+    top: 10px;
+    left: 900px;
+}
+.nav ul li
+{   
+    padding: 10px;
+    justify-items: right;
+    display: flex;
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+.nav ul li:hover
+{  
+    border-bottom: solid 2px #000;
+    display: inline;
+    padding-bottom: 7px;
+}
+hr
+{
+    border-color: #000;
+    margin-top: 10px;
+}
+.vdo
+{
+    min-height: 100vh;
+}
+.vdo video
+{
+    position: absolute;
+    top: 20%;
+    left: 7%; 
+    width: 93%;
+    height: 35%;
+    object-fit: cover;
+}
+.vdo  h2
+{
+
+    background: #fff;
+    font-size: 15vh;
+    color: #000;
+   mix-blend-mode: screen;
+   padding: 5px;
+}
+.ND
+{
+    position: absolute;
+    top: 40%;
+    left: 20%; 
+    bottom: 100px;
+    border-left:5px solid #000;
+    padding-left:  35px;
+    padding-bottom: 3px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.ND h3
+{
+    color: #000;
+    font-size: 20px;
+}
+.ND h4
+{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+.about
+{
+    margin: 30px;
+}
+.about h1
+{
+    font-size: 30px;
+    border-bottom: solid 2px #444444;
+    display: inline;
+    padding-bottom: 2px;
+}
+.about .p
+{
+    margin: 10px 0 0 10px;
+    color: #424242;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.about h2
+{
+ position: relative;
+ left: 23%;
+}
+.aboutme
+{
+    float: left;
+}
+.aboutme u
+{
+    text-decoration: none;
+    color: #434343;
+}
+.aboutme img
+{
+    position: relative;
+    top: 30px;
+    left: 10px;
+    height: 350px;
+    width: 250px;
+}
+.aboutme span:nth-child(even)
+{
+    font-size: 20px;
+    display: block;
+    border-bottom: 1px solid #524747;
+    position: relative;
+    top: -342px;
+    left:330px;
+    padding: 20px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+.aboutme span:nth-child(odd)
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 19px;
+    display: flex;
+    border-bottom: 1px solid   #434343;
+    position: relative;
+    top: -390px;
+    left: 800px;
+    padding: 20px 0 0 0;
+    padding-bottom: 5px;
+}
